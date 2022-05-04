@@ -3,7 +3,7 @@ import ideaImageUrl from '../../../assets/images/idea.svg';
 import thoughtImageUrl from '../../../assets/images/thought.svg';
 import { CloseButton } from '../../CloseButton';
 
-const FEEDBACK_TYPES = {
+export const FEEDBACK_TYPES = {
   BUG: {
     title: 'Issue',
     image: {
