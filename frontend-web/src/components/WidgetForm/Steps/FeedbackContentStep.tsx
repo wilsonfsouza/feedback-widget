@@ -7,11 +7,13 @@ import { FeedbackType, FEEDBACK_TYPES } from './FeedbackTypeStep';
 interface FeedbackContentStepProps {
   feedbackType: FeedbackType;
   onFeedbackRestartRequested: () => void;
+  onFeedbackSent: () => void;
 }
 
 export function FeedbackContentStep({
   feedbackType,
   onFeedbackRestartRequested,
+  onFeedbackSent,
 }: FeedbackContentStepProps) {
   const [screenshot, setScreenshot] = useState<string | null>(null);
   const [feedbackComment, setFeedbackComment] = useState('');
@@ -27,6 +29,8 @@ export function FeedbackContentStep({
 
   function handleSubmitFeedback(event: FormEvent) {
     event?.preventDefault();
+    console.log({ screenshot, feedbackComment });
+    onFeedbackSent();
   }
 
   return (
