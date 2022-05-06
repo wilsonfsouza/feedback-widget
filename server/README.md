@@ -8,7 +8,7 @@
   - Setup Express
 - Prisma setup
 - Route for feeback
-- Email Service
+- Email Service -> mailtrap
 - SOLID Principles
   - Single Responsability Principle
   - Liskov Substitution Principle
