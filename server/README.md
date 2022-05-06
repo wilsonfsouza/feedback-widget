@@ -5,6 +5,7 @@
 - Initial setup
   - TS
   - ts-node-dev
+  - Setup Express
 - Prisma setup
 - Route for feeback
 - Email Service
