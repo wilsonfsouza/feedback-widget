@@ -48,7 +48,8 @@
             }
         ],
         "prettier/prettier": "error",
-        "import/prefer-default-export": "off"
+        "import/prefer-default-export": "off",
+        "react/jsx-no-useless-fragment": "off"
     },
     "settings": {
         "import/resolver": {
