@@ -1,0 +1,17 @@
+# Backend
+- App workflow
+  - 1 route to communicate with frontend for every feedback submission
+  - Backend will save feedback in DB and send email to the owner of the app the uses the feedback widget
+- Initial setup
+  - TS
+  - ts-node-dev
+- Prisma setup
+- Route for feeback
+- Email Service
+- SOLID Principles
+  - Single Responsability Principle
+  - Liskov Substitution Principle
+  - Dependency Inversion Principle
+- Using SOLID in the application
+- Setting up jest
+- Unit tests in the application
