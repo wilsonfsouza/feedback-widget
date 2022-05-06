@@ -1,5 +1,5 @@
-import { ICreateFeednacksDTO } from '../dtos/ICreateFeedbacksDTO';
+import { ICreateFeedbacksDTO } from '../dtos/ICreateFeedbacksDTO';
 
 export interface IFeedbacksRepository {
-  create: (data: ICreateFeednacksDTO) => Promise<void>;
+  create: (data: ICreateFeedbacksDTO) => Promise<void>;
 }
