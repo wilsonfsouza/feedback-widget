@@ -1,7 +1,7 @@
-import express from 'express'
+import express from 'express';
 
 const app = express();
 
 app.listen(3333, () => {
-  console.log('HTTP server running on PORT: 3333')
-})
+  console.log('HTTP server running on PORT: 3333');
+});
