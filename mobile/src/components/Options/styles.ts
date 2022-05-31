@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     color: theme.colors.text_primary,
     fontSize: 20,
     marginBottom: 32,
-    fontStyle: theme.fonts.medium
+    fontFamily: theme.fonts.medium
   },
   options: {
     width: '100%',
